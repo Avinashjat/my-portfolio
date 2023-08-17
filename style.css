@@ -101,9 +101,65 @@ nav ul li a:hover::after{
     
 }
 .leftsection2 img{
-    border-radius: 23px;
+    border-radius: 25px;
+    margin-left: 100px;
 }
 
 .rightsection2 {
     flex-basis: 55%;   
 }
+
+.about-me{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.about-tittle{
+    display: flex;
+    /* padding: 10px; */
+    
+}
+
+.tittle-links{
+    margin: 25px 25px 25px 0px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.tittle-links::after{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background:#ff004f;
+    position: absolute;
+    left: 0%;
+    bottom: -5px;
+    transition: 0.6s;
+}
+
+/* .tittle-links:hover::after{
+    width: 100%;
+} */
+
+.tittle-links.skills::after{
+    width:70%;
+}
+
+.tittle-content ul li{
+   list-style: none;
+}
+
+.tittle-content ul li span{
+    color: #de50cb;
+   padding-bottom: 20px;
+   font-size: 18px;
+ }
+ 
+ .tittle-content {
+    display: none;
+ }
+ .active-skill{
+    display: contents;
+ }
