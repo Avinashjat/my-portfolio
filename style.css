@@ -1,6 +1,7 @@
 *{
     padding: 0%;
-    margin: 0;
+    margin: 0; 
+ 
 }
 
 
@@ -62,6 +63,8 @@ nav ul li a:hover::after{
     font-size: 25px;
 }
 
+
+
 /* main--section */
 
 .first{
@@ -86,6 +89,7 @@ nav ul li a:hover::after{
 
 
 
+
 /*  ---------- about me section---------   */
 
 .second{
@@ -98,11 +102,11 @@ nav ul li a:hover::after{
 
 .leftsection2 {
     flex-basis: 30%;
-    
 }
+
 .leftsection2 img{
     border-radius: 25px;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 
 .rightsection2 {
@@ -163,3 +167,75 @@ nav ul li a:hover::after{
  .active-skill{
     display: contents;
  }
+
+
+ /* --------- services section ----------- */
+
+
+.third{
+    padding-top: 80px;
+     position:relative;
+    left: 143px; 
+}  
+
+.srvice-list ul li{
+    list-style: none;
+}
+
+.service-list{
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    grid-gap: 60px;
+}
+
+
+.service-list div{
+    background-color: rgb(85, 78, 114);
+    padding: 35px;
+    font-size: 13px;
+    font-weight: 300;
+
+    border-radius: 20px;
+    transition-duration: 0.8s;
+}
+
+ .service-list div h2{
+    margin-bottom: 12px;
+} 
+
+.service-list div a{
+    text-decoration: none;
+    color: rgb(122, 46, 21);
+   font-size: 18px;
+} 
+.service-list div i{
+    font-size:45px;
+    margin-bottom: 20px;
+    padding: 20px;
+  } 
+
+
+.service-list div p{
+  
+  margin-bottom: 30px;
+} 
+
+.service-list div:hover{
+    background-color: #6eab59;
+    cursor: pointer;
+   transform: translateY(-15px);
+}
+
+
+.second{
+    background-size: cover;
+}
+
+
+/* ---------------work---------------------- */
+
+.four{
+    padding-top: 80px;
+     position:relative;
+    left: 143px; 
+}  
